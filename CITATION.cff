@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
 type: software
-title: "What Explanations Cost and When They Fail: Measuring XAI Evidence for Software-Defined Vehicles — code and data"
+title: "Explainable AI for Software-Defined Vehicles: Computational Cost, Reliability, and Safety Assurance — code and data"
 license: MIT
 authors:
   - given-names: Osvaldo

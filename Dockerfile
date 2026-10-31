@@ -1,8 +1,8 @@
 # Tier 1 and tier 2 environment (CPU only).
-#   docker build -t xai-sdv-evidence .
-#   docker run --rm xai-sdv-evidence                       # tier 1
+#   docker build -t xai-sdv-explainable-ai-for-safety-security .
+#   docker run --rm xai-sdv-explainable-ai-for-safety-security                       # tier 1
 #   docker run --rm -v /path/to/data:/data -e XAI_SDV_DATA=/data \
-#       xai-sdv-evidence make tier2-can                    # tier 2, CAN part
+#       xai-sdv-explainable-ai-for-safety-security make tier2-can                    # tier 2, CAN part
 FROM python:3.12-slim
 
 RUN apt-get update \

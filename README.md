@@ -1,9 +1,9 @@
-# What Explanations Cost and When They Fail: code and data
+# Explainable AI for Software-Defined Vehicles: Computational Cost, Reliability, and Safety Assurance — code and data
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23749399.svg)](https://doi.org/10.5281/zenodo.23749399)
 
-This repository reproduces the measurements of the paper *What Explanations
-Cost and When They Fail: Measuring XAI Evidence for Software-Defined Vehicles*.
+This repository reproduces the measurements of the paper *Explainable AI for
+Software-Defined Vehicles: Computational Cost, Reliability, and Safety Assurance*.
 It covers two questions. First, what an explanation costs: latency and model
 passes of TreeSHAP, KernelSHAP, LIME, occlusion, Grad-CAM and Integrated
 Gradients on x86 and ARM servers and on three Cortex-M4 microcontrollers, and a
@@ -31,7 +31,7 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
 
-A `Dockerfile` with the same environment is included (`docker build -t xai-sdv-evidence .`;
+A `Dockerfile` with the same environment is included (`docker build -t xai-sdv-explainable-ai-for-safety-security .`;
 the default command runs tier 1).
 
 ## Quick start
