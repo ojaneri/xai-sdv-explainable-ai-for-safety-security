@@ -42,9 +42,9 @@ make tables PY=.venv/bin/python    # print every table and figure from results/,
 make verify PY=.venv/bin/python    # compare them with the numbers printed in the paper
 ```
 
-`make verify` compares 330 values (every table cell and figure coordinate, and
+`make verify` compares 346 values (every table cell and figure coordinate, and
 the numbers quoted in the text) and ends with
-`330 values match the paper, 0 noted presentation differences, 0 mismatches`.
+`346 values match the paper, 0 noted presentation differences, 0 mismatches`.
 
 ## Paper item to command, script and result
 
